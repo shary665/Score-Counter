@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #669bbc;
+}
+
+@font-face{
+font-family: Digital;
+src: url("./fonts/digital-7.ttf");
+}
+
+#head{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero{
+  height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+#score-main{
+ background-color: #003049;
+ border-radius: 0px 100px 0px 100px;
+ padding: 70px 100px;
+}
+
+#score-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.Team-name{
+ font-size: 30px;
+ font-weight: bold;
+ color: white;
+ margin-bottom: 25px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.score{
+    font-size: 100px;
+    background-color: black;
+    padding: 10px 20px 10px 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    color: rgb(224, 55, 55);
+    font-family: Digital;
+    font-weight: lighter;
+}
+
+.btn{
+    margin-left: 10px;
+    padding:3px 10px;
+    background: none;
+    border: 1px solid rgb(37, 198, 209);
+    color: rgb(37, 183, 209);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+     font-family: Digital;
+}
+
+#Reset{
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 7px;
+    color: black;
+    background: rgb(255, 190, 70);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Reset:hover{
+    background-color: #ff9900;
+}
+

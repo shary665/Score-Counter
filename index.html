@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+
+<head>
+    <title>Score Counter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="hero">
+        <h1 id="head">Score Counter</h1>
+        <div id="score-main">
+            <div id="score-display">
+                <div id="Home-Team-Score">
+                    <h1 class="Team-name">Home</h1>
+                    <h1 class="score" id="Home-score">12</h1>
+                    <button class="btn" id="Home-Plus-one" onclick="addOne()">+1</button>
+                    <button class="btn" id="Home-Plus-two" onclick="addTwo()">+2</button>
+                    <button class="btn" id="Home-Plus-three" onclick="addThree()">+3</button>
+                </div>
+                <div id="Guest-Team-Score">
+                    <h1 class="Team-name">Guest</h1>
+                    <h1 class="score" id="Guest-score">0</h1>
+                    <button class="btn" id="Guest-Plus-one" onclick="addGuestOne()">+1</button>
+                    <button class="btn" id="Guest-Plus-two" onclick="addGuestTwo()">+2</button>
+                    <button class="btn" id="Guest-Plus-three" onclick="addGuestThree()">+3</button>
+                </div>
+            </div>
+            <button id="Reset" onclick="Reset()">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
